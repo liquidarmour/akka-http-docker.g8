@@ -52,7 +52,7 @@ packageOptions in (Compile, packageBin) +=  {
 }
 
 imageNames in docker := Seq(
-  ImageName(s"${organization.value}/${name.value}:latest"),
+  ImageName(s"\${organization.value}/\${name.value}:latest"),
   {
     val baseVersion = version.value
     val actualVersion = if (baseVersion.endsWith("-SNAPSHOT")) baseVersion else "v" + baseVersion
