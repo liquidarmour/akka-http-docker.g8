@@ -9,7 +9,7 @@ lazy val root = (project in file(".")).
       organization    := "$github_id$",
       scalaVersion    := "2.12.2"
     )),
-    name := $name;format="norm"$,
+    name := "$name;format="norm"$"",
     libraryDependencies ++= Seq(
       "com.typesafe.akka" %% "akka-http"         % akkaHttpVersion,
       "com.typesafe.akka" %% "akka-http-xml"     % akkaHttpVersion,
