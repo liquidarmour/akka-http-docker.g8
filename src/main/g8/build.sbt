@@ -6,7 +6,7 @@ lazy val akkaVersion    = "2.5.2"
 lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
-      organization    := $organization$,
+      organization    := ${organization.name}$,
       scalaVersion    := "2.12.2"
     )),
     name := $name;format="norm"$,
