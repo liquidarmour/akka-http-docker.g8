@@ -1,13 +1,13 @@
 import ReleaseTransformations._
 
-lazy val akkaHttpVersion = "10.0.7"
-lazy val akkaVersion    = "2.5.2"
+lazy val akkaHttpVersion = "$akka_http_version$"
+lazy val akkaVersion    = "$akka_version$"
 
 lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
       organization    := "$github_id$",
-      scalaVersion    := "2.12.2"
+      scalaVersion    := "$scala_version$"
     )),
     name := "$name$",
     libraryDependencies ++= Seq(

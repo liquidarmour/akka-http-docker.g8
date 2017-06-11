@@ -1,4 +1,4 @@
-package routes
+package $package$.routes
 
 import java.io.IOException
 import java.net.{ URL, URLClassLoader }

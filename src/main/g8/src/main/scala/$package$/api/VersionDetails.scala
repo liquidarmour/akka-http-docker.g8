@@ -1,4 +1,4 @@
-package abct.corporation.tax.api
+package $package$.api
 
 import java.util.jar.Attributes
 
