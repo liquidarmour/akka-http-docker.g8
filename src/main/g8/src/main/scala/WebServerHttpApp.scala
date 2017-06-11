@@ -10,12 +10,7 @@ object WebServerHttpApp extends HttpApp with App with routes.VersionRoutes {
   def routes: Route =
     pathEndOrSingleSlash { // Listens to the top `/`
       complete("Server up and running") // Completes with some text
-    } ~
-      path("hello") { // Listens to paths that are exactly `/hello`
-        get { // Listens only to GET requests
-          complete(<html><body><h1>Say hello to akka-http</h1></body></html>) // Completes with some text
-        }
-      } ~ versionRoutes
+    } ~ versionRoutes
 
   // This will start the server until the return key is pressed
   startServer("0.0.0.0", 9000)
