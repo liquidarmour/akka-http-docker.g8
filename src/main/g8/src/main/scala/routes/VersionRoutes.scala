@@ -1,4 +1,4 @@
-package abct.corporation.tax.routes
+package routes
 
 import java.io.IOException
 import java.net.{ URL, URLClassLoader }
