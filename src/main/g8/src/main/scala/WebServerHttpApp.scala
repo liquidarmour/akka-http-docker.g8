@@ -1,3 +1,5 @@
+import akka.http.scaladsl.server.{ HttpApp, Route }
+
 /**
  * Server will be started calling `WebServerHttpApp.startServer("localhost", 8080)`
  * and it will be shutdown after pressing return.
