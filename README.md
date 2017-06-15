@@ -1,6 +1,8 @@
 A [Giter8][g8] template for a Akka HTTP application with Docker, release, git and versioning built in!
 
-The aim of this is to provide a base application that can be managed almost completely in SBT. This project began as a [akka-http-scala-seed] 
+The aim of this is to provide a base application that can be released and managed almost completely in SBT. 
+
+This project began as project based on [akka-http-scala-seed], so thanks to Lightbend for providing something solid to start on.  
 
 The application uses multiple [sbt] plugins including:
  * [sbt-release] to manage the release of the application
