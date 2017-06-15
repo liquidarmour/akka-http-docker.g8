@@ -30,7 +30,6 @@ This template will prompt for the following parameters. Press Enter if the defau
 - server_port: The port you want your app to run when run from SBT
 
 WebServerHttpApp: This server is started using the recently introduced HttpApp, which bootstraps a server with just a few lines. For this particular case, the routes are defined in the same class, but you can also define them in separated traits or objects.
-Once inside the project folder, to run this code, you can use any of the following commands:
 
 Running in SBT
 --------------
