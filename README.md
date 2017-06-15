@@ -60,4 +60,4 @@ This template is distributed without any warranty. See <http://creativecommons.o
 [sbt-buildInfo]: https://github.com/sbt/sbt-buildinfo
 [sbt-docker]: https://github.com/marcuslonnberg/sbt-docker
 [akka-http-scala-seed]: https://github.com/akka/akka-http-scala-seed.g8
-
+[sbt]: http://www.scala-sbt.org/
