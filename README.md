@@ -11,7 +11,9 @@ The application uses multiple [sbt] plugins including:
 Prerequisites:
 
 JDK 8
+
 sbt 0.13.13 or higher
+
 Open a console and run the following command to apply this template:
 
 sbt new liquidarmour/akka-http-docker.g8
