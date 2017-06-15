@@ -37,7 +37,7 @@ Running in SBT
 --------------
 **sbt run**
 
-This will run the server on localhost. You can navigate to http://localhost:9000/version to see the application version information.
+This will run the server on localhost. You can navigate to *http://localhost:9000/version* to see the application version information.
 
 **sbt docker**
 
