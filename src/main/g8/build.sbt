@@ -12,7 +12,7 @@ enablePlugins(DockerPlugin)
 lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
-      organization    := "$github_id$",
+      organization    := "$organisation$",
       scalaVersion    := "$scala_version$"
     )),
     name := "$name$",
