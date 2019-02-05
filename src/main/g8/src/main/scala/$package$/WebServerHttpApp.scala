@@ -3,7 +3,7 @@ package $package$
 import akka.http.scaladsl.server.{ HttpApp, Route }
 import $package$.routes.VersionRoutes
 /**
- * Server will be started calling `WebServerHttpApp.startServer("localhost", 8080)`
+ * Server will be started calling `WebServerHttpApp.startServer("localhost", 9000)`
  * and it will be shutdown after pressing return.
  */
 object WebServerHttpApp extends HttpApp with App with VersionRoutes {
@@ -15,5 +15,5 @@ object WebServerHttpApp extends HttpApp with App with VersionRoutes {
     } ~ versionRoutes
 
   // This will start the server until the return key is pressed
-  startServer("0.0.0.0", 9000)
+  startServer("0.0.0.0", $server_port$)
 }
